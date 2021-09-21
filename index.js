@@ -10,7 +10,7 @@ function formatNumbers () {
     document.getElementById("userInput").value = correctValue;
   }
 }
-
+ 
 function convertHex(){
   const userInputs = document.getElementById("userInput").value;
   if (userInputs.length < 9) {
